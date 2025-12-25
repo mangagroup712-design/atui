@@ -5,7 +5,7 @@ Atui is the browser assistant made by japanese high school student.
 ## About Us
 Atuiは日本の高校生が一から開発したアシスタントです。
 これは現在サポートされている、すべての端末・OSで動くことを目標に作られました。
-<sub>動作確認済みOS：Windows10, Windows11, Linux(Ubuntu), Android16~13, iOS 26~15</sub>
+<sub>動作確認済みOS：Windows10, Windows11, Linux(Ubuntu), Android16∼13, iOS 26∼15</sub>
 
 ## What Can I Do?
 AtuiではAIなどの"なんでもできる"プログラムをまったく使用しないため、利用できる機能はAIに比べたら限られています。
