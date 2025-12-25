@@ -87,7 +87,7 @@ function handleNormal(val) {
             overlay.classList.add('is-active');
         }
         setTimeout(() => { location.href = "shiritori.html"; }, 514);
-    }else if (val.includes("help") || val.include("ヘルプ")) {
+    }else if (val.includes("help") || val.includes("ヘルプ")) {
         printLog("新規タブでGithubを開きます。");
         window.open("https://github.com/mangagroup712-design/atui?tab=readme-ov-file#atui");
     } else {
@@ -208,4 +208,5 @@ currentMode = "normal";
 
 
 printLog("今日はどうされましたか？");
+
 
