@@ -1,5 +1,6 @@
 # atui
 _This app is only available in Japanese. The following is all written in Japanese._
+
 Atui is the browser assistant made by japanese high school student.
 
 ## About Us
