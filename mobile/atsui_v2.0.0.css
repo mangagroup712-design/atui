@@ -64,7 +64,8 @@ html, body {
     flex-direction: column;
     gap: 12px;
     scroll-behavior: smooth;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
 }
 
 .log-entry {
@@ -296,4 +297,5 @@ button {
 #reload:hover {
     opacity: 0.85;
 }
+
 
