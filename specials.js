@@ -45,3 +45,11 @@ if (level <= 20) {
 
 setInterval(updateBattery, 1000);
 updateBattery();
+
+function Github(){
+    window.open("https://github.com/mangagroup712-design/atui?tab=readme-ov-file#atui", "_blank");
+}
+
+if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+    window.location.href = "mobile/index.html";
+}

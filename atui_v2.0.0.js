@@ -81,15 +81,14 @@ function handleNormal(val) {
     }else if (val.includes("郵便")){
         printLog("郵便番号または住所を入力してください。")
         currentMode = "post_num"
+    }else if (val.includes("help") || val.includes("ヘルプ")){
+        window.open("https://github.com/mangagroup712-design/atui?tab=readme-ov-file#atui", "_blank");
     }else if (val.includes("しりとり")){
         const overlay = document.getElementById('fade-overlay');
         if (overlay) {
             overlay.classList.add('is-active');
         }
         setTimeout(() => { location.href = "shiritori.html"; }, 514);
-    }else if (val.includes("help") || val.includes("ヘルプ")) {
-        printLog("新規タブでGithubを開きます。");
-        window.open("https://github.com/mangagroup712-design/atui?tab=readme-ov-file#atui");
     } else {
         printLog(atuilist[Math.floor(Math.random() * atuilist.length)]);
     }
@@ -208,5 +207,3 @@ currentMode = "normal";
 
 
 printLog("今日はどうされましたか？");
-
-
