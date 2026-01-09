@@ -73,7 +73,7 @@ function handleNormal(val) {
         window.open('HotCalculator.html', 'Atui電卓', 'width=320,height=470');
     } else if (val.includes("暇") || val.includes("ひま")) {
         printLog("暇つぶし動画を再生します。");
-        printLog("𝒀𝑶𝑼 𝑮𝑬𝑻 𝑹𝑰𝑪𝑲𝑹𝑶𝑳𝑳𝑬𝑫");
+        printLog("𝒀𝑶𝑼 𝑮𝑶𝑻 𝑹𝑰𝑪𝑲𝑹𝑶𝑳𝑳𝑬𝑫");
         window.open("https://shattereddisk.github.io/rickroll/rickroll.mp4");
     } else if (val.includes("勉強")) {
         printLog("新規タブで開きます。");
@@ -207,3 +207,4 @@ currentMode = "normal";
 
 
 printLog("今日はどうされましたか？");
+
