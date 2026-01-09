@@ -35,8 +35,8 @@ html, body {
 #app-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100%;
+    height: 96vh;
+    width: 98%;
     max-width: 600px;
     margin: 0 auto;
     padding-top: env(safe-area-inset-top);
@@ -297,5 +297,6 @@ button {
 #reload:hover {
     opacity: 0.85;
 }
+
 
 
